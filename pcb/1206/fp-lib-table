@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "solder of fortune")(type "KiCad")(uri "${KIPRJMOD}/..//solder-of-fortune.pretty")(options "")(descr ""))
+)

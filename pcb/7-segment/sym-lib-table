@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "solder-of-fortune")(type "KiCad")(uri "D:/solder-of-fortune/solder-of-fortune.kicad_sym")(options "")(descr ""))
+  (lib (name "sa08-11ewa_1")(type "KiCad")(uri "D:/solder-of-fortune/tmp/sa08-11ewa_1.kicad_sym")(options "")(descr ""))
+)
