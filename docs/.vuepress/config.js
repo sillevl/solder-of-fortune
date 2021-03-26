@@ -42,14 +42,12 @@ module.exports = {
     docsBranch: 'main',
     sidebarDepth: 1,
     sidebar: [
-      // {
-      //   title: 'JavaScript',   // required
-      //   collapsable: true, // optional, defaults to true
-      //   sidebarDepth: 0,    // optional, defaults to 1
-      //   children: [
-      //     '/chapters/01-javascript/nodejs/',
-      //   ]
-      // },
+      ['/01_introduction/', 'Introduction'],
+      ['/02_7-segment/', '7 Segment Display'],
+      ['/03_1206/', '1206'],
+      ['/04_0805/', '0805'],
+      ['/05_0603/', '0603'],
+      ['/06_0402/', '0402']
     ]
   },
 }
