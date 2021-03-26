@@ -5,6 +5,13 @@ tagline: Learn to solder SMT components, and test your own skills with the inclu
 actionText: Get Started →
 actionLink: /01_introduction/
 footer: These kits are part of the PCB Design course of the VIVES University College in Bruges
+features:
+- title: Surface Mount Technology
+  details: Learn to solder different types of SMT components with a bunch of kits that increasingly challenge you.
+- title: Learn a skill
+  details: With each challenge you will acquire new skills giving you confidence to tackle any soldering task.
+- title: Validation
+  details: The kits include a 7 Segment display that enables you to validate and confirm the results of every challenge.
 ---
 
 # Learn to solder

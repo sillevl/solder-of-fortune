@@ -3,7 +3,6 @@ module.exports = {
   description: 'Soldering kit for SMT components',
   dest: 'dist',
   plugins: [
-    ['vuepress-plugin-zooming'],
     ['vuepress-plugin-container', {
       type: 'quote',
       defaultTitle: '',
@@ -30,6 +29,14 @@ module.exports = {
       after: () => '</details>\n'
     }],
     ['vuepress-plugin-presentation-mode'],
+    ['vuepress-plugin-zooming', {
+      selector: '.theme-default-content :not(a) > img:not(.no-zoom)',
+      // medium-zoom options here
+      // See: https://github.com/francoischalifour/medium-zoom#options
+      options: {
+        margin: 16
+      }
+    }]
   ],
   serviceWorker: true,
   themeConfig: {
