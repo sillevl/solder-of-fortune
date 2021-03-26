@@ -1,0 +1,36 @@
+{
+  "name": "solder-of-fortune",
+  "version": "0.1.0",
+  "description": "Introduction kits for soldering SMT components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "lint-markdown": "markdownlint **/*.md",
+    "lint": "npm run lint-markdown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sillevlsolder-of-fortune.git"
+  },
+  "author": "Sille Van Landschoot <info@sillevl.be>",
+  "license": "CC BY-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/sillevl/solder-of-fortune/issues"
+  },
+  "homepage": "https://github.com/sillevl/solder-of-fortune#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-markdown"
+    }
+  },
+  "devDependencies": {
+    "husky": "^4.3.8",
+    "markdownlint-cli": "^0.26.0",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-presentation-mode": "^0.1.1",
+    "vuepress-plugin-public-files": "^1.0.0-alpha.0",
+    "vuepress-plugin-zooming": "^1.1.8"
+  }
+}
