@@ -30,3 +30,5 @@ fp-info-cache
 gerber/
 *.zip
 node_modules
+
+dist/
