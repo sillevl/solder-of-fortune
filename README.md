@@ -1,5 +1,7 @@
 # solder-of-fortune
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/002c0542-9b9a-4b46-bf48-f99a85485431/deploy-status)](https://app.netlify.com/sites/solder-of-fortune/deploys)
+
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 PCB Soldering challenges
