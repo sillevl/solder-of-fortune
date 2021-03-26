@@ -17,7 +17,7 @@ The goal is to solder 4 7-Segment displays onto the PCB. In order to connect dif
 ## Tools
 
 * Soldering iron
-* Soldering wire
+* Soldering wire (D=0.5mm recommended)
 * Tweezers
 * Hot air station (optional)
 * Solder paste (optional)
@@ -75,7 +75,3 @@ It is very important that the pin headers are straight. If they are not fitted f
 When all components are soldered on correctly. The PCB should look like this. You now have a 4 character 7-segment display!
 
 ![Soldered PCB](./assets/soldered-pcb.jpg)
-
-## Documentation
-
-* Schematic
