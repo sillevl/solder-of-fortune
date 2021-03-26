@@ -12,10 +12,11 @@
 
 <script>
 export default {
-  props: ["videoId"],
+  props: ["videoId", "startAt"],
   computed: {
     youtubeUrl: function () {
-      return `https://www.youtube.com/embed/${this.videoId}`;
+      const startAt = this.startAt ? `?t=${this.startAt}` : ''
+      return `https://www.youtube.com/embed/${this.videoId}${startAt}`;
     },
   },
 };
@@ -27,6 +28,7 @@ export default {
   /* 16:9 aspect ratio */
   padding-top: 56.25%;
   position: relative;
+  margin: 16px auto;
 }
 
 .iframe-container iframe {
