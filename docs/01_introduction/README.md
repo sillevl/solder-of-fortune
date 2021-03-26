@@ -23,19 +23,19 @@ challenges:
   - title: SO and SOT Packages
     link: \#
     description: Many components come in chip packages. SO and SOT packages are one of the larger kind and are a perfect fit for this challenge
-    image: http://via.placeholder.com/350x150?text=under%20construction
+    image: https://via.placeholder.com/350x150?text=under%20construction
   - title: TSSOP Packages
     link: \#
     description: TSSOP package are just like SO, but smaller and more fragile. This challenge will be harder, but is the ideal to get more experience and confidence
-    image: http://via.placeholder.com/350x150?text=under%20construction
+    image: https://via.placeholder.com/350x150?text=under%20construction
   - title: QFPN Packages
     link: \#
     description: Now you enter the realm of hot-air soldering. These packages don't have any leads, but are still possible to solder by hand
-    image: http://via.placeholder.com/350x150?text=under%20construction
+    image: https://via.placeholder.com/350x150?text=under%20construction
   - title: Debuging and reworking traces
     link: \#
     description: When creating your own PCB's you will definitely make mistakes. In this challenge you can learn how some of the mistakes can be corrected
-    image: http://via.placeholder.com/350x150?text=under%20construction
+    image: https://via.placeholder.com/350x150?text=under%20construction
 ---
 
 # Solder of Fortune
